@@ -10,7 +10,8 @@ const routes: Routes = [
   { path: 'heroes', component: HeroesComponent },
   { path: 'detail/:id', component: HeroDetailComponent },
   { path: 'dashboard', component: DashboardComponent },
-  { path: 'details', component: HeroFormComponent }
+  { path: 'details', component: HeroFormComponent },
+  { path: 'details/:id', component: HeroFormComponent }
 
 ];
 

@@ -33,7 +33,7 @@
         </div>
       </div>
 
-      <button type="submit" class="btn btn-success" (click)="add(nameInput.value, alterEgoInput.value, power.value);" [disabled]="!heroForm.form.valid">Submit</button>
+      <button type="submit" class="btn btn-success" (click)="onClickUpdater(nameInput.value, alterEgoInput.value, power.value);" [disabled]="!heroForm.form.valid">Submit</button>
       <button type="button" class="btn btn-default" (click)="newHero(); heroForm.reset()">New Hero</button>
     </form>
   </div>
